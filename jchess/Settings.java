@@ -80,6 +80,9 @@ public class Settings implements Serializable
             Settings.loc = PropertyResourceBundle.getBundle("jchess.resources.i18n.main");
             Locale.setDefault(Locale.ENGLISH);
         }
+        else{
+        	Locale.setDefault(Locale.GERMAN);
+        }
         String result = "";
         try
         {
