@@ -79,7 +79,7 @@ public class Rook extends Piece
     {
         ArrayList list = new ArrayList();
 
-        for (int i = this.square.pozY + 1; i <= 7; ++i)
+        for (int i = this.square.pozY + 1; i <= 5; ++i)
         {//up
 
             if (this.checkPiece(this.square.pozX, i))
@@ -182,7 +182,7 @@ public class Rook extends Piece
             }
         }
 
-        for (int i = this.square.pozX + 1; i <= 7; ++i)
+        for (int i = this.square.pozX + 1; i <= 5; ++i)
         {//right
 
             if (this.checkPiece(i, this.square.pozY))
